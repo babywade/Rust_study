@@ -19,3 +19,11 @@ wsl2下安装rust开发环境：
 3、不知为何本人本机还要输入sudo apt install rustc 才能测试安装成功 ？
 
 ![1675230517756](image/README/1675230517756.png)
+
+rust hello world
+
+![1675240672089](image/README/1675240672089.png)
+
+这里 Cargo 是 Rust 的构建系统和包管理器。
+
+Rust 开发者常用 Cargo 来管理 Rust 工程和获取工程所依赖的库。在上个教程中我们曾使用 cargo new greeting 命令创建了一个名为 greeting 的工程，Cargo 新建了一个名为 greeting 的文件夹并在里面部署了一个 Rust 工程最典型的文件结构。这个 greeting 文件夹就是工程本身。
